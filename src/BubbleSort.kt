@@ -6,7 +6,6 @@
 
 
 val a = Bean("li1", 12)
-val a1 = Bean("li1", 12)
 val b = Bean("li2", 155)
 val c = Bean("li3", 13)
 val d = Bean("li4", 17)
@@ -24,7 +23,6 @@ fun main(args: Array<String>) {
         }
     }
 
-
     alist.forEach {
         println(it.name + "----" + it.value)
     }
@@ -41,3 +39,4 @@ data class Bean(val name: String, val value: Int){ //kotlin domain写法
 //        return super.equals(other)
 //    }
 }
+
